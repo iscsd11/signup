@@ -2,7 +2,7 @@
 @section('content')
     <h1>新增活動</h1>
     {!! BootForm::horizontal([
-    'url' => '/action/store',
+    'url' => '/action',
     'left_column_class' => 'col-sm-2',
     'left_column_offset_class' => 'col-sm-offset-2',
     'right_column_class' => 'col-sm-10'
